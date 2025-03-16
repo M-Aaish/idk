@@ -19,7 +19,7 @@ if st.button("Start"):
         st.success("Done successfully!")
         
         # Define the path to the final image
-        final_image_path = os.path.join("output", "44a-p-4", "Final_Result.jpg")
+        final_image_path = os.path.join("output", "44a-p-4", "Final_Result.png")
         
         if os.path.exists(final_image_path):
             st.image(final_image_path, caption="Final Result", use_column_width=True)
